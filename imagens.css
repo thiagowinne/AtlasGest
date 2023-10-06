@@ -1,0 +1,10 @@
+.img-sa {
+    max-width: 300px; 
+    max-height: 350px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.item img {
+    max-width: 100%; /* Garante que a imagem se ajuste ao seu contêiner */
+}

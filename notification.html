@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notificações</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="notification.css">
+     <!----===== Boxicons CSS ===== -->
+     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+     
+<body>
+    <!--MENU LATERAL-->
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="Logo preta sem fundo.png" alt="">
+                </span>
+                <div class="text logo-text">
+                    <span class="name">Atlas</span>
+                    <span class="profession">Gest</span>
+                </div>
+            </div>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Pesquisar...">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="inicio.html">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Inicio</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Painel</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="notification.html">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Notificações</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Análise</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Asmei</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="cartao.html">
+                            <i class='bx bx-wallet icon' ></i>
+                            <span class="text nav-text">Cartão</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-content">
+                <li class="">
+                    <a href="index.html">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text"></span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+    </nav>
+  
+    <div class='content'>
+        <div class="alert alert-success alert-white rounded">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <div class="icon"><i class="fa fa-check"></i></div>
+            <strong>Sucesso!</strong> Sua compra foi realizada com sucesso!
+        </div>
+        <div class="alert alert-info alert-white rounded">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <div class="icon"><i class="fa fa-info-circle"></i></div>
+            <strong>Info!</strong> Você tem 1 notificação nova.
+        </div>
+        <div class="alert alert-warning alert-white rounded">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <div class="icon"><i class="fa fa-warning"></i></div>
+            <strong>Alerta!</strong> Seu E-mail não foi confirmado.
+        </div>
+        <div class="alert alert-danger alert-white rounded">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <div class="icon"><i class="fa fa-times-circle"></i></div>
+            <strong>Erro!</strong> Você não tem pontos suficiente.
+        </div>
+        </div>
+
+
+        <script src="menu.js"></script>
+</body>
+</html>

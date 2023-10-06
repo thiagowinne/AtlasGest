@@ -1,0 +1,20 @@
+/* link que ainda não foi acessado */
+a {
+color: #ffffff;
+}
+/* link que foi visitado */
+a:visited {
+color: #ffffff;
+}
+/* quando o ponteiro do mouse passa no link */
+a:hover {
+color: #ffffff;
+}
+/* quando o link for selecionado */
+a:active {
+color: #ffffff;
+}
+/* tirar a linha a baixo do texto */
+a {
+text-decoration: none;
+}
